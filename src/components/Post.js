@@ -1,6 +1,6 @@
-import {useState} from "react";
+// import {useState} from "react";
 function Post(){
-    const [commentPost, setCommentPost] = useState("");
+    // const [commentPost, setCommentPost] = useState("");
     return(
       <div>
 
