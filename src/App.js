@@ -2,6 +2,9 @@ import './App.css';
 import React, { Component } from 'react';
 import Anime from "./components/Anime";
 import Post from "./components/Post";
+import Author from "./components/Author";
+import Help from "./components/Help";
+
 
 class App extends Component {
   constructor(props) {
