@@ -13,3 +13,18 @@
 - User can also able to list favorite animes. 
 
 - users can also comment on animes. 
+
+
+- Create a blog
+
+- BLOG POST and save it. how to display the information on the screen. 
+
+- FRONT END ONLY BLOG THAT CAN BE HOOKED TO A BACKEND. 
+
+- Form element that user enters their blog post. 
+
+- upload a picture to a webpage. 
+
+- uploading pics of favorite anime. 
+
+- create an array. loop through it 
