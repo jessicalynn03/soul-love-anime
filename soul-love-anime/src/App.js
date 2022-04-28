@@ -13,11 +13,18 @@ class App extends Component {
   
   picChoice = (choice) => {
     // console.info("I was clicked");
-    if (choice === "Home Page") {
+    if (choice === "Home") {
       this.setState({userChoice: <Anime />})
     }
-    else if (choice === "Blog Page"){
+    else if (choice === "Blog"){
       this.setState({userChoice: <Post />})
+    }
+    else if(choice === "Author"){
+      this.setState({userChoice: <Author />})
+    }
+    else if(choice === "Help"){
+      this.setState({userChoice: <Help />})
+
     }
   }
   render() {
@@ -25,14 +32,17 @@ class App extends Component {
     return (
       <div className="App">
         <h1>SOUL-LOVE ANIME</h1>
-        <div>
+        <ul>
 
-          <div onClick={ () => {this.picChoice("Home Page")}}>Home Page</div>
-      <hr>
-      </hr>
-          <div  onClick={() => {this.picChoice("Blog Page")}}>Blog Page</div>
+          <li onClick={ () => {this.picChoice("Home")}}>Home</li>
+      
+          <li  onClick={() => {this.picChoice("Blog")}}>Blog</li>
 
-        </div>
+          <li  onClick={() => {this.picChoice("Author")}}>Author</li>
+
+          <li  onClick={() => {this.picChoice("Help")}}>Help</li>
+
+        </ul>
         <form>
 
         </form>
@@ -43,5 +53,5 @@ class App extends Component {
     );
   }
 }
-.
+
 export default App;

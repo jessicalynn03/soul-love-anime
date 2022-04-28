@@ -1,6 +1,9 @@
 function Post(){
+    const [commentPost, setCommentPost] = useState("");
     return(
-        <h1>Blog Page</h1>
+      <div>
+          
+      </div>
     )
 }
 
