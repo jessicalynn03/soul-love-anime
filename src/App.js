@@ -47,11 +47,10 @@ class App extends Component {
         </ul>
         <h1>SOUL-LOVE ANIME</h1>
         <p>Welcome to Soul-Love Anime! The number 1 blog website in the NYC-area for anime lovers.This dating website was created for people to connect with their shared love for anime.</p>
-        <form>
-
-        </form>
+    
         
           {this.state.userChoice}
+         
       
       </div>
     );

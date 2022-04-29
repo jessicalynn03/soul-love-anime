@@ -1,9 +1,9 @@
 body {
 /* background-image: url("https://cdn.mwallpapers.com/photos/wallpapers/anime/hotarubi-no-mori-e-android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4khd-wallpapers-desktop-background-android-iphone-1080p-4k-zvfyj.jpg"); */
 background: maroon;
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
+/* background-size: cover; */
+/* background-position: center;
+background-repeat: no-repeat; */
 color: white;
 }
 
@@ -20,6 +20,10 @@ li {
 
 .anime-info {
   display: flex;
-  width: 200px;
-  height: 200px;
+}
+
+.help-page {
+  border: 2px solid black;
+  margin: 50px;
+  padding: 25px;
 }
