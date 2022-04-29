@@ -34,9 +34,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h1>SOUL-LOVE ANIME</h1>
-        <p>Welcome to Soul-Love Anime! The number 1 dating website in the NYC-area for anime lovers.This dating website was created for people to find their true love by connecting with their shared love for anime.</p>
-        <ul>
+        <ul className="nav-links">
 
           <li onClick={ () => {this.picChoice("Home")}}>Home</li>
       
@@ -47,6 +45,8 @@ class App extends Component {
           <li  onClick={() => {this.picChoice("Help")}}>Help</li>
 
         </ul>
+        <h1>SOUL-LOVE ANIME</h1>
+        <p>Welcome to Soul-Love Anime! The number 1 blog website in the NYC-area for anime lovers.This dating website was created for people to connect with their shared love for anime.</p>
         <form>
 
         </form>
