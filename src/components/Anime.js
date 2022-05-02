@@ -11,10 +11,10 @@ import animeList from "../animeList";
 // }
 function Anime () {
     let animeJSX = animeList.map(anime => (
-        <li>
+        <ul>
             {anime.cover}
             Title: {anime.name}
-        </li>
+        </ul>
     ))
 return (
     <>

@@ -20,7 +20,7 @@ li {
 
 .anime-info {
   display: flex;
-  flex-direction: round;
+  flex: column;
 }
 
 .help-page {
@@ -33,3 +33,4 @@ li {
   width: 400px;
   height: 200px;
 }
+
