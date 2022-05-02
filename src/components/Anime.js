@@ -9,6 +9,7 @@ import animeList from "../animeList";
 //     </div>
 // )
 // }
+// looped through the array of object created so that it can be displayed on the scree. 
 function Anime () {
     let animeJSX = animeList.map(anime => (
         <ul>
@@ -25,7 +26,7 @@ return (
     </>
 )
 }
-
+// wrapped variable around square brackets so that it can be displayed on the screen. 
 
 
 export default Anime;

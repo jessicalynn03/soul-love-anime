@@ -5,7 +5,7 @@ import Post from "./components/Post";
 import Author from "./components/Author";
 import Help from "./components/Help";
 
-
+// used class constructors so that upon clicking the nav, which ever one is clicked, the contents from that component would appear on the screen. 
 class App extends Component {
   constructor(props) {
     super(props)
