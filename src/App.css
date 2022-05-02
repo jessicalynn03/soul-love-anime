@@ -20,10 +20,16 @@ li {
 
 .anime-info {
   display: flex;
+  flex-direction: round;
 }
 
 .help-page {
   border: 2px solid black;
   margin: 50px;
   padding: 25px;
+}
+
+.comment-input {
+  width: 400px;
+  height: 200px;
 }

@@ -1,14 +1,22 @@
 import {useState} from "react";
 function Post(){
-    const [commentPost, setCommentPost] = useState("");
+    const [postComment, setPostComment] = useState([]);
+    const [comment, setComment] = useState("");
+    // const [isSent, setIsSent] = useState(false);
+
+    const postSubmit = (e) => {
+        e.preventDefault()
+        setPostComment([...postComment, comment])
+        // setIsSent(true);
+    }
     return(
       <div>
           <h2>BLOG POST</h2>
-          <form>
-              <input type="text"/>
-              <input type="submit" value="Create Post" onChange={(e) =>{setCommentPost(e.target.value)}}/>
+          <form onSubmit={postSubmit}>
+              <input className="comment-input" type="text" value={comment} onChange={(e) =>{setComment(e.target.value)}}/> <hr></hr>
+              <input type="submit" value="Create Post"/>
           </form>
-          <span>{commentPost}</span>
+          <span>{comment}</span>
       </div>
 
     )
